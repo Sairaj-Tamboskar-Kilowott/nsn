@@ -3,12 +3,15 @@ body{
 }
 
 .headimg{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 628px;
+    /* width: 100%;
+    height: 100%; */
     left: 0px;
     top: 0px;
     background: linear-gradient(269.69deg, #10375C 1.4%, rgba(16, 55, 92, 0) 99.7%), url(image.png);
+    /* background-size: cover; */
 }
 .my-nav{
     position: absolute;
@@ -43,7 +46,7 @@ body{
     
 }
 .solution{
-    /* position: relative; */
+    position: relative;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -53,18 +56,19 @@ body{
     letter-spacing: 0.2em;
     color: #FFFFFF; 
     margin-left: 182px;
+    
 }
-  
-  
+
 .heroText{
-   /* position: absolute; */
+   position: relative;
    color: #FFFFFF;
-   font-family: 'Inter' sans-serif;
+   font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
    font-size: 32px;
    line-height: 39px;
    margin-left: 182px;
+   padding-right: 240px;
 }
   
 .heroButton{
@@ -121,10 +125,11 @@ body{
   
 .baseBlock {
     background-color: #E5E5E5;
-    height: 116px;
+    /* height: 116px; */
     margin: 0px 0px 0px 0px;
-    padding: 0 0 0px 0px;
+    padding: 0px 0px 0px 0px;
     border-radius: 0px;
+    border: none;
     overflow: hidden;
     /* min-height: 390px; */
     background: #fff;
@@ -132,7 +137,7 @@ body{
     -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-  
+
   
 .baseBlock:hover {
     
@@ -158,14 +163,14 @@ body{
   
 .headerCardText{
     /* position: absolute; */
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
     color: #10375C;
     padding-left: 15px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 /* ///////////////////////////////about section////////////////////////////////////////////////////////// */
@@ -231,7 +236,7 @@ body{
     margin-right: 50px;
 }
 .shipBox{
-    width: 710px;  
+    width: 100%;  
     background: url(image.png);
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -241,8 +246,8 @@ body{
 .bgSolution{
     position: relative;
     background-size: 100% 100%;
-    background-image: url('../image/Rectangle 12.png');
-    background: linear-gradient(270deg, rgba(16, 55, 92, 0.8) 4.34%, rgba(16, 55, 92, 0.352) 113.72%), url(../image/Rectangle 12.png);
+    background-repeat: no-repeat;
+    background-image: url('../image/Rectangle 12.png'), linear-gradient(270deg, rgba(16, 55, 92, 0.8) 4.34%, rgba(16, 55, 92, 0.352) 113.72%);
     margin-bottom: 80px;
 }
 .solutionWord{
@@ -300,7 +305,7 @@ body{
 }
 .solutionRightText .card .card-header p{
     display: inline;
-    margin-left: 65px;
+    margin-left: 55px;
 }
 .solutionRightText hr{
     border: 1px solid #FFFFFF;
@@ -308,6 +313,11 @@ body{
 .solutionRightText .card .card-link .fa{
     margin: 10px 0px 10px 10px;
 }
+.solutionRightText .card .card-header{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 
 
 /* ////////////////////////////////Service section css////////////////////////////////////// */
@@ -351,6 +361,7 @@ body{
     padding: 23px 20px 23px 20px;
     border: 1px solid #10375C;
     box-sizing: border-box;
+    margin-right: 40px;
 }
 
 .serviceCards{
@@ -364,8 +375,8 @@ body{
 }
 .serviceCards .card{
     position: relative;
-    width: 375px;
-    height: 475px; 
+    width: 310px;
+    height: 450px; 
     margin-right: 14px !important;
     padding: 1.5rem;
     display: flex;
@@ -394,7 +405,7 @@ body{
     opacity: 1;
 }
 .serviceCards .card img{
-    width:100% ;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
@@ -431,11 +442,10 @@ body{
 /* ////////////////////////////////contact us section/////////////////////////// */
 .bgequireNow{
     position: relative;
-    background-image: url('../image/Rectangle 17.png');
+    background-image: url('../image/Rectangle 17.png'), linear-gradient(270.12deg, rgba(16, 55, 92, 0.8) 4.3%, rgba(16, 55, 92, 0.352) 81.74%);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;    
     margin-bottom: 83px;
-    background: linear-gradient(270.12deg, rgba(16, 55, 92, 0.8) 4.3%, rgba(16, 55, 92, 0.352) 81.74%), url(../image/Rectangle 17.png);
 }
   
 .equireContactUs{
@@ -521,7 +531,7 @@ body{
     font-size: 32px;
     line-height: 39px;
     letter-spacing: 1px;
-    padding-right: 150px;
+    padding-right: 95px;
 }
 .newscard{
     width: 292.85px;
@@ -571,6 +581,7 @@ body{
     text-decoration: underline;
     text-transform: uppercase;
     color: #1E8EA4;
+   
 }
 
 /* ////////////////////////////////////////client section//////////////////////////////////////////////////// */
@@ -707,6 +718,9 @@ body{
 
 
 /* ///////////////////////////////////floating form/////////////////////////////////////////////////// */
+.form-control{
+    padding: 20px 25px;
+}
 .form{
     position: relative;
     width: 540px;                 
@@ -720,9 +734,10 @@ body{
 }
 
 #formName{
+    position: absolute;
     width: 481px;
     height: 55px;
-    margin-top: 63px;
+    top: 63px;
     margin-left: 30px;
     margin-right: 30px;
     border: 1px solid #C2C2C2;
@@ -730,9 +745,10 @@ body{
 }
   
 #formEmail{
+    position: absolute;
     width: 481px;
     height: 55px;
-    margin-top: px;
+    top: 146px;
     margin-left: 30px;
     margin-right: 30px;
     border: 1px solid #C2C2C2;
@@ -740,9 +756,10 @@ body{
 }
   
 #formPhone{
+    position: absolute;
     width: 481px;
     height: 55px;
-    margin-top: px;
+    top: 229px;
     margin-left: 30px;
     margin-right: 30px;
     border: 1px solid #C2C2C2;
@@ -750,9 +767,10 @@ body{
 }
   
 #formSubject{
+    position: absolute;
     width: 481px;
     height: 55px;
-    margin-top: px;
+    top: 312px;
     margin-left: 30px;
     margin-right: 30px;
     border: 1px solid #C2C2C2;
@@ -760,20 +778,30 @@ body{
 }
   
 #formMessage{
+    position: absolute;
     width: 481px;
     height: 133px;
+    top:395px;
     border: 1px solid #C2C2C2;
     box-sizing: border-box;
-    margin-top: px;
     margin-left: 30px;
     margin-right: 30px;
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
+    font-family: 'Lato' sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+
 }
   
 .submitNowButton{
+    position: absolute;
     width: 145px;
     height: 50px;
+    top: 564px;
     border-radius: 50px;
     font-size:12px ;
     background: #1E8EA4;
@@ -782,7 +810,6 @@ body{
     font-weight: 700;
     line-height: 14.52px;
     letter-spacing: 2px;
-    margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 45px;
@@ -790,7 +817,7 @@ body{
 
 .placeholder{
     /* position: absolute; */
-    font-family: 'Inter';
+    font-family: 'Lato' sans-serif !important;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -811,21 +838,22 @@ body{
     background-color: #000000;
 }
 
-.footer-dark hr{
-    border: 1px solid #FFFFFF;
+.fooHr{
+    border-top: 1px solid white !important;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 .footerBrand{
     margin-left: 80px;
-    border-right: 1px solid rgba(243, 243, 243, 0.37);
+    margin-top: 15px;
+    border-right: 1.5px solid rgba(243, 243, 243, 0.37);
     height: 50px;
 }
   
 .footerText{
-    width: 371px;
-    height: 59px;
+    /* width: 371px;
+    height: 59px; */
     /* left: 309px;
     top: 5823px; */
     font-family: 'Inter';
@@ -835,6 +863,7 @@ body{
     line-height: 24px;
     /* or 150% */
     color: #FFFFFF;
+    margin-top: 10px;
 }
     
 .footerNote{
@@ -848,34 +877,37 @@ body{
     margin-bottom: 30px;
 }
 
-
+.fa-brands{
+    margin-top: 20px;
+}
 
 .facebook{
     border-radius: 50%;
-    padding: 10px 13px 13px 13px;
+    padding: 10px 10px 10px 10px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    margin-right: 16px;
+    margin-right: 10px;
 }
+
 .youtbLogo{
     border-radius: 50%;
-    padding: 13px 8px 13px 8px;
+    padding: 10px 8px 10px 8px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    margin-right: 16px;
+    margin-right: 12px;
 
 }
 .vimeoLogo{
     border-radius: 50%;
-    padding: 12px 8px 12px 8px;
+    padding: 10px 10px 10px 10px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    margin-right: 16px;
+    margin-right: 12px;
 
 }
 .twitLogo{
     border-radius: 50%;
-    padding: 10px 6px 13px 7px;
+    padding: 10px 10px 10px 10px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     margin-right: 40px;
