@@ -41,9 +41,7 @@ body{
 .carousel-caption{
     max-width: 100%;
     width: 100% !important;
-    left: 0;
-    
-    
+    left: 0;    
 }
 .solution{
     position: relative;
@@ -55,8 +53,7 @@ body{
     /* identical to box height */
     letter-spacing: 0.2em;
     color: #FFFFFF; 
-    margin-left: 182px;
-    
+    margin-left: 182px;   
 }
 
 .heroText{
@@ -206,7 +203,6 @@ body{
     line-height: 39px;
     color: #10375C;
     margin-left: 50px;
-
 }
 .textBelowAbout2{
     /* position: absolute; */
@@ -371,7 +367,6 @@ body{
     margin-top: 75px;
     /* margin-left: 40px; */
     overflow-x: hidden !important;
-
 }
 .serviceCards .card{
     position: relative;
@@ -481,7 +476,6 @@ body{
     padding-left: 350px;
     padding-right: 350px;
     margin-bottom:50px ;
-  
 }
   
 .equireNowButton{
