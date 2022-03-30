@@ -1,5 +1,10 @@
 /* bootstrap by default comes mobile first approach......  no need to design for extra small*/
-@media (min-width: 1200px)
+
+
+
+
+/* Extra Large */
+@media (min-width: 1900px) 
 {
     /* ////////////////////////////////////////HEADER/////////////////////////////////////////////////// */
     .heroText{
@@ -273,4 +278,181 @@
         margin-right: 173px;
         margin-bottom: -80px;
     }
+}
+
+
+
+
+/* Large devices */
+@media (min-width: 1500px) and (max-width: 1899px)
+{
+    /* ////////////////////////////////////////HEADER/////////////////////////////////////////////////// */
+    .heroText{
+        position: relative;
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        margin-left: 182px;
+        padding-right: 250px;
+    }
+    .heroNumber{
+        color: white;
+        width: 86px;
+        height: 39px;
+        margin-right: 150px;
+        margin-bottom: 200px;
+    }
+
+    /* ///////////////////////////////ABOUT SECTION////////////////////////////////////////////////////////// */ 
+    .aboutWord{
+        /* position: absolute; */
+        width: 52px;
+        height: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #10375C;
+        margin-top: 65px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .textBelowAbout{
+        /* position: absolute; */
+        width: 356px;
+        height: 182px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #10375C;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .textBelowAbout2{
+        /* position: absolute; */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        color: #000000;
+        opacity: 0.7;
+        margin-left: 50px;
+        margin-right: 150px;
+        margin-bottom: 30px;
+    }
+    .textBelowAbout3{
+        /* position: absolute; */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        color: #000000;
+        opacity: 0.7;
+        margin-bottom: 127px;
+        margin-left: 50px;
+        margin-right: 150px;
+        margin-bottom: 30px;
+        
+    }
+
+    /* ////////////////////////////////Service section css////////////////////////////////////// */
+    .serviceCards .card{
+        position: relative;
+        width: 340px;
+        height: 550px; 
+        margin-right: 14px !important;
+        padding: 1.5rem;
+        display: flex;
+        transition: 0.5s ease-in-out;
+        box-shadow: 0px 7px 10px rgba(black, 0.5);
+    }
+
+    /* ///////////////////////////news and update section//////////////////////////////////////// */
+    .newsText{
+        /* position: absolute; */
+        margin-top: 40px;
+        margin-left: 80px;
+        margin-bottom: 47px;
+        color:#10375C;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: 1px;
+        padding-right: 200px;
+    }
+    .newscard{
+        width: 320px;
+        height: 250px;
+    }
+    .newsCarouselCardTxt{
+        padding-left: 13px ; 
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-top: -50px;
+        background-color: white;
+        margin-right: 60px;
+        color: #10375C;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-style: normal;
+    }
+    .newsCarouselCardTxt2{
+        padding-left: 13px ; 
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* margin-top: -50px; */
+        background-color: white;
+        margin-right: 60px;
+        color: #000000;
+        font-size: 16px;
+        font-family: 'Inter';
+        font-weight: 400;
+        line-height: 24px;
+        font-style: normal;
+        opacity: 0.7;
+    }
+
+
+    /* /////////////////////////client section//////////////////////////////////// */
+    .clientLogo{
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: px;
+        margin-right: 100px;
+        margin-bottom: 120px;
+    }
+    .logos{
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .logos .d-block{
+        margin-right: 70px;
+    } 
+}
+
+
+
+
+/* now bootstrap queries */
+
+@media (min-width: 1200px) and (max-width: 1499px)
+{
+    
 }
