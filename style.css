@@ -10,7 +10,8 @@ body{
     height: 100%; */
     left: 0px;
     top: 0px;
-    background: linear-gradient(269.69deg, #10375C 1.4%, rgba(16, 55, 92, 0) 99.7%), url(image.png);
+    /* background: linear-gradient(269.69deg, #10375C 1.4%, rgba(16, 55, 92, 0) 99.7%), url(image.png); */
+    background: linear-gradient(269.69deg, #10375C 1.4%, rgba(16, 55, 92, 0) 99.7%);
     /* background-size: cover; */
 }
 .my-nav{
