@@ -193,8 +193,8 @@ body{
 }
 .textBelowAbout{
     /* position: absolute; */
-    width: 356px;
-    height: 182px;
+    /* width: 356px; */
+    /* height: 182px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -573,7 +573,6 @@ body{
     text-decoration: underline;
     text-transform: uppercase;
     color: #1E8EA4;
-   
 }
 
 /* ////////////////////////////////////////client section//////////////////////////////////////////////////// */
@@ -786,7 +785,6 @@ body{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.4);
-
 }
   
 .submitNowButton{
