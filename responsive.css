@@ -459,8 +459,9 @@
         margin-left: 0px;
     }
     .logos .d-block{
-        margin-right: 70px;
+        margin-right: 50px;
     } 
+   
 }
 
 
@@ -1392,9 +1393,49 @@
         line-height: 35px;
         color: #10375C;
     } 
-    .clientLogo .col-lg-4{
+    .clientLogo .col-lg-2{
         margin-bottom: 20px;
+        padding: 0px !important;
+        
     }
+    .clientLogo{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        /* margin-right: 0px !important; */
+        /* margin-left: 60px !important; */
+    }
+    .google_logo{
+        width: 100px !important;
+        height: 40px;
+        margin: 0px !important;
+    }
+    .tokopedia_logo{
+        width: 150px;
+        height: 30px;
+        margin-right: 50px;
+    }
+    .upwork_logo{
+        width: 100px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    .microsoft_logo{
+        width:150px;
+        height: 30px;
+        margin-right: 40px;
+    }
+    .shopify_logo{
+        margin-left: 30px;
+        width: 120px;
+        height: 40px;
+    }
+    .stripe_logo{
+        margin-left: 30px;
+        width: 90px;
+        height: 40px;
+    }
+
 
     /* ////////////////////////////////////////for form////////////////////////////////////////// */
     .parent{
@@ -1880,7 +1921,7 @@
         text-transform: uppercase;
     }
     .clientLogo .col-lg-4{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         margin-right: 50px;
     }
 
