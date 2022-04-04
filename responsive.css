@@ -461,7 +461,23 @@
     .logos .d-block{
         margin-right: 50px;
     } 
-   
+
+
+   /* ///////////////////////////////////floating form/////////////////////////////////////////////////// */
+    .form-control{
+        padding: 20px 25px;
+    }
+    .form{
+        position: relative;
+        width: 540px;                 
+        height: 659px; 
+        background: #FFFFFF;
+        box-shadow: 0px 4px 134px rgba(0, 0, 0, 0.16);
+        margin-top: -650px;
+        margin-left: 900px;
+        margin-right: 173px;
+        margin-bottom: -80px;
+    }
 }
 
 
@@ -521,7 +537,7 @@
         font-size: 26px;
         line-height: 39px;
         margin-left: 182px;
-        padding-right: 150px;
+        padding-right: 250px;
         margin-top: 195px;
     }
     .heroButton{
@@ -934,7 +950,7 @@
         background: #FFFFFF;
         box-shadow: 0px 4px 134px rgba(0, 0, 0, 0.16);
         margin-top: -500px;
-        margin-left: 600px;
+        margin-left: 650px;
         margin-right: 173px;
         margin-bottom: -80px;
     }
@@ -944,7 +960,8 @@
     .footerBrand{
         margin-left: 80px;
         margin-top: 15px;
-        border-right: 0px;
+        /* border-right: 0px; */
+        border-right: 1.5px solid #FFFFFF;
         height: 50px;
     }
     .co_fo_logo{
@@ -1528,7 +1545,7 @@
         background: #FFFFFF;
         box-shadow: 0px 4px 134px rgba(0, 0, 0, 0.16);
         margin-top: -450px;
-        margin-left: 530px;
+        margin-left: 650px;
         margin-right: 173px;
         margin-bottom: -60px;
     }
@@ -1924,6 +1941,9 @@
         margin-bottom: 15px;
         margin-right: 50px;
     }
+    .logos{
+        margin-bottom: 20px;
+    }
 
     /* ///////////////////////parent division for floating form//////////////////////////////////////////////////////////// */
     .parent{
@@ -1990,7 +2010,7 @@
         font-size: 28px;
         line-height: 39px;
         color: #10375C;
-        padding-right: 400px;
+        padding-right: 450px;
     }
     .detaillRightText2{
         /* position: absolute; */
@@ -2001,7 +2021,7 @@
         line-height: 30px;
         /* or 150% */
         color: #10375C;
-        padding-right: 400px;
+        padding-right: 450px;
     }
 
 
@@ -2016,7 +2036,7 @@
         background: #FFFFFF;
         box-shadow: 0px 4px 134px rgba(0, 0, 0, 0.16);
         margin-top: -650px;
-        margin-left: 360px;
+        margin-left: 370px;
         margin-right: 173px;
         margin-bottom: -80px;
     }
@@ -2509,6 +2529,9 @@
     }
     .clientLogo{
         margin-bottom: 50px;
+    }
+    .logos{
+        margin-bottom: 20px;
     }
 
     /* ///////////////////////parent division for floating form//////////////////////////////////////////////////////////// */
@@ -3125,6 +3148,9 @@
     }
     .clientLogo{
         margin-bottom: 50px;
+    }
+    .logos{
+        margin-bottom: 20px;
     }
 
     /* ///////////////////////parent division for floating form//////////////////////////////////////////////////// */

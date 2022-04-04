@@ -232,7 +232,7 @@ body{
 }
 .shipBox{
     width: 100%;  
-    background: url(image.png);
+    /* background: url(image.png); */
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
